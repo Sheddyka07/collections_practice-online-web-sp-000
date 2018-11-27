@@ -46,7 +46,8 @@ end
 
 
 def add_s(array)
-  
+  sum = 0
+  array.each {|a| sum+=a}
 end
 
 
