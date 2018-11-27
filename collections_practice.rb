@@ -20,8 +20,8 @@ end
 
 
 def swap_elements(array)
-  new_array = array.collect {|x| x[0], x[2], x[1]}
-end
+  array.collect {|x| x[0], x[2], x[1]}
+
 end
 
 
