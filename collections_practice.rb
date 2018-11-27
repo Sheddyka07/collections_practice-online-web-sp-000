@@ -20,7 +20,7 @@ end
 
 
 def swap_elements(array)
-  array.collect
+  array.collect {|x| x[0], }
 end
 
 
