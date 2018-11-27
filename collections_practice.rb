@@ -41,9 +41,7 @@ end
 
 
 def find_a(array)
-  a_array = []
-  array.select {|word| word.start_with? ("a")}
-  
+  array.select! {|word| word.start_with? ("a")}
 end 
 
 
