@@ -20,7 +20,7 @@ end
 
 
 def swap_elements(array)
-  array.
+  array.collect
 end
 
 
