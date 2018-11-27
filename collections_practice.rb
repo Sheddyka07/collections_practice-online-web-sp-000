@@ -52,7 +52,7 @@ end
 
 def add_s(array)
   s_array = []
-  array.each do |index, word|
+  array.each_with_index.collect do |index, word|
     if index != 1 
       word.insert(-1, "s")
     else 
