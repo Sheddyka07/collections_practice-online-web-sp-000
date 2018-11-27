@@ -50,14 +50,12 @@ def sum_array(array)
 end
 
 
-def add_s(array)
-  s_array = []
-  array.each_with_index.collect do |index, word|
-    if index != 1 
-      word.insert(-1, "s")
-    else 
-      word
+def add_s(string_array)
+  string_array.each_with_index.collect do |element, index|
+    if index != 1
+      element << "s"
+    else
+      element
     end
   end
-  array
 end
