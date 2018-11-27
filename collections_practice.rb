@@ -12,17 +12,10 @@ end
 end
 
 
-def array_length(input_array)
-  length = []
-  input_array.each{ |a| length << a.length}
-  length
-end
-
-
-def sort_array_char_count(array_length)
-  array_length.sort do |a, b|
-    a <=> b
-  end
+def sort_array_char_count(strings)
+    strings.sort do |a, b|
+      a.length <=> b.length
+    end
 end
 
 
